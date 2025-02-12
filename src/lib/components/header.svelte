@@ -103,6 +103,7 @@
     "lg:hidden",
     openSidebar && "ml-[280px]",
   ]}
+  aria-label="Sidebar button"
   onclick={() => (openSidebar = !openSidebar)}
 >
   <Menu class="text-secondary" />

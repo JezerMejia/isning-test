@@ -7,7 +7,13 @@
   import Hero from "$lib/components/sections/hero.svelte";
   import Services from "$lib/components/sections/services.svelte";
   import Testimonials from "$lib/components/sections/testimonials.svelte";
+  import { headDescription, headTitle } from "$lib/snippets/head.svelte";
 </script>
+
+<svelte:head>
+  {@render headTitle("Vintage Outdoor Inc.")}
+  {@render headDescription("Transforming Spaces, Building Dreams")}
+</svelte:head>
 
 <Hero />
 <FeaturedColumns />

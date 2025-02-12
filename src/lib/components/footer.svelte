@@ -72,7 +72,7 @@
       class="flex flex-row gap-16 items-start lg:col-span-4 justify-around lg:justify-between flex-wrap lg:flex-nowrap"
     >
       <ul class="list-none flex flex-col gap-4">
-        <span class="text-2xl font-bold">Our Company</span>
+        <li class="text-2xl font-bold">Our Company</li>
         {#each Object.entries(companyPages) as [label, path]}
           <li>
             {@render navLink(path, label)}
@@ -81,7 +81,7 @@
       </ul>
 
       <ul class="list-none flex flex-col gap-4">
-        <span class="text-2xl font-bold">Support</span>
+        <li class="text-2xl font-bold">Support</li>
         {#each Object.entries(supportPages) as [label, path]}
           <li>
             {@render navLink(path, label)}
