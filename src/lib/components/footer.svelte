@@ -61,10 +61,10 @@
       </p>
 
       <div class="flex flex-row items-center gap-2">
-        {@render socialLink("#facebook", "FaceBook", Facebook)}
-        {@render socialLink("#whatsapp", "WhatsApp", Whatsapp)}
-        {@render socialLink("#linkedin", "WhatsApp", Linkedin)}
-        {@render socialLink("#twitter", "Twitter", Twitter)}
+        {@render socialLink("#", "FaceBook", Facebook)}
+        {@render socialLink("#", "WhatsApp", Whatsapp)}
+        {@render socialLink("#", "WhatsApp", Linkedin)}
+        {@render socialLink("#", "Twitter", Twitter)}
       </div>
     </div>
 
@@ -110,11 +110,7 @@
             {@render contactLink("tel:+1 760 350 5552", "760 350 5552", Phone)}
           </li>
           <li>
-            {@render contactLink(
-              "#location",
-              "123 Main Street, Suite 456, Your City, ST 78901",
-              MapPin
-            )}
+            {@render contactLink("#", "123 Main Street, Suite 456, Your City, ST 78901", MapPin)}
           </li>
           <li>
             {@render contactLink(

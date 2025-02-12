@@ -46,7 +46,7 @@
 
       {@render contactLink("tel:+1 760 350 5552", "760 350 5552", "Phone Number", Phone)}
       {@render contactLink(
-        "#location",
+        "#",
         "123 Main Street, Suite 456, Your City, ST 78901",
         "Address",
         MapPin
